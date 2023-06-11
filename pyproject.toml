@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-100knock-data-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Masaru Fukazawa <upw.ponsuke@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_100knock_data_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.1"
+pandas = "^1.5.2"
+jupyter = "^1.0.0"
+matplotlib = "^3.6.2"
+scikit-learn = "^1.2.0"
+openpyxl = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
